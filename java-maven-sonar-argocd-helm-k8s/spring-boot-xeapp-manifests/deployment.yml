@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: narasimhakudva/xeapp-cicd:6
+        image: narasimhakudva/xeapp-cicd:10
         ports:
         - containerPort: 8080
