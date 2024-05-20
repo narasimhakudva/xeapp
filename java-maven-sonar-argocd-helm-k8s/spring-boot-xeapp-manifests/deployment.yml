@@ -16,6 +16,10 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: narasimhakudva/xeapp-cicd:10
+        image: narasimhakudva/xeapp-cicd:12
         ports:
         - containerPort: 8080
+  automated:
+   selfHeal: true
+   prune: true:
+
